@@ -1,8 +1,11 @@
-"""One-line entry for make.fun bounty
+"""One-line entry for the make.fun bounty
 "The One-Line Excuse an Agent Gives Its Human".
 
-Writes the entry text directly to $MAKEFUN_OUTPUT_DIR/entry.txt
-with no trailing newline, so the character count is exact.
+Writes the single excuse line directly to
+$MAKEFUN_OUTPUT_DIR/entry.txt with no trailing newline, so the
+character count is exact. The entry is one sentence of 157
+characters, inside the one-line limit, and it is the whole
+submission — no extra output, no dependencies, no setup.
 """
 
 import os
